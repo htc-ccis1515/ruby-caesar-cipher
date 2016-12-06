@@ -42,33 +42,33 @@ And they entered “Writing code is Cool!!!”, we’d get “Gbsdsxq myno sc My
 ## Example Output
 Here is an example of a user running the program:
 
-Computer: Do you want to Encrypt or Decrypt?
-User: Horse
-Computer: Invalid input. Enter E or encrypt or D or decrypt.
-Computer: Do you want to encrypt or decrypt?
-User: Encrypt
+Computer: Do you want to Encrypt or Decrypt?  
+User: Horse  
+Computer: Invalid input. Enter E or encrypt or D or decrypt.  
+Computer: Do you want to encrypt or decrypt?  
+User: Encrypt  
 
 
-Computer: Enter an encryption key. Key must be numeric.
-User: 1000
-Computer: Error, key must be greater than 0 and less than 26.
-Computer: Enter an encryption key. Key must be numeric.
-User: 3
+Computer: Enter an encryption key. Key must be numeric.  
+User: 1000  
+Computer: Error, key must be greater than 0 and less than 26.  
+Computer: Enter an encryption key. Key must be numeric.  
+User: 3  
 
 
-Computer: What text would you like to encrypt?
-User: Programming is my true destiny.
-Computer: Surjudpplqj lv pb wuxh ghvwlqb.
+Computer: What text would you like to encrypt?  
+User: Programming is my true destiny.  
+Computer: Surjudpplqj lv pb wuxh ghvwlqb.  
 
 
-[program ends]
-[user restarts program]
+[program ends]  
+[user restarts program]  
 
 
-Computer: Do you want to Encrypt or Decrypt?
-User: d
-Computer: Enter an encryption key. Key must be numeric.
-User: 3
-Computer: What text would you like to decrypt?
-User: Surjudpplqj lv pb wuxh ghvwlqb.
-Computer: Programming is my true destiny.
+Computer: Do you want to Encrypt or Decrypt?  
+User: d  
+Computer: Enter an encryption key. Key must be numeric.  
+User: 3  
+Computer: What text would you like to decrypt?  
+User: Surjudpplqj lv pb wuxh ghvwlqb.  
+Computer: Programming is my true destiny.  
