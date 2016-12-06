@@ -6,8 +6,9 @@
 The encryption scheme for this assignment is a simple substitution cipher. The scheme works by replacing each character in the plaintext with the corresponding character in a “ciphertext alphabet”, which is always the same length as the plaintext alphabet.  
 
 For example:
-plaintext alphabet:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ciphertext alphabet: KLMNOPQRSTUVWXYZABCDEFGHIJ
+
+plaintext alphabet:  ABCDEFGHIJKLMNOPQRSTUVWXYZ  
+ciphertext alphabet: KLMNOPQRSTUVWXYZABCDEFGHIJ  
 
 Given the ciphertext alphabet, if we encrypted the string “writing code is cool” it would become “gbsdsxq myno sc myyv”. This is because we replace “w” with “g”, “r” with “b” and so forth.
 
