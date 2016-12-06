@@ -25,15 +25,17 @@ ciphertext alphabet:  DEFGHIJKLMNOPQRSTUVWXYZABC
 
 ## Overview of Program Behavior
 At the beginning of the program:
-The computer will encrypt if the user enters encrypt or “e”, case insensitive.
+The computer will encrypt if the user enters encrypt or “e”, case insensitive.  
 The computer will decrypt if the user enters decrypt or “d”, case insensitive.
 
 To handle text entered by the user that needs to be encrypted or decrypted, you should use the following rules for each character:
-If it is a letter, replace as described above with a letter of the same case (uppercase or lowercase).
-If it is anything else, leave it as is in the output.
+
+If it is a letter, replace as described above with a letter of the same case (uppercase or lowercase).  
+If it is anything else, leave it as is in the output.  
 
 So for example, if we had the alphabets below:
-plaintext alphabet:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+plaintext alphabet:  ABCDEFGHIJKLMNOPQRSTUVWXYZ  
 ciphertext alphabet: KLMNOPQRSTUVWXYZABCDEFGHIJ
 
 
