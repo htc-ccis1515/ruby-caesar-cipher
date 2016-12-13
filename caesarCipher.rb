@@ -29,7 +29,11 @@ end
 #
 ###############################################################################
 def get_encryption_or_decryption
-  while number > 0 &&
+  while number > 0 && number < 26
+puts "Enter a number between 1 and 26"
+number = gets.chomp.to_i
+return key
+end
 end
 
 ###############################################################################
@@ -198,7 +202,10 @@ puts encrypt "Programming is my true destiny.", 3
 # and return back the decrypted phrase.
 #
 ###############################################################################
-
+def decrypt phrase, key
+  decrypt = encrypt phrase, key
+  return decrypt
+end
 
 ##############################################################################
 #
@@ -207,13 +214,13 @@ puts encrypt "Programming is my true destiny.", 3
 ##############################################################################
 
 # 1. Determine if we are encrypting or decrypting.
-e_or_d = #change this to call the 1st method
+e_or_d = encrypt_or_decrypt #change this to call the 1st method
 
 # 2. Get encrypt/decrypt key.
-key = 3 #change to call the 2nd method
+key = get_encryption_or_decryption #change to call the 2nd method
 
 # 3. Get the phrase to encrypt/decrypt.
 phrase = get_phrase e_or_d
 
 # 4. Display the results of the encryption/decryption.
-result = "" #Change this to call either encrypt or decrypt method
+result = encrypt #Change this to call either encrypt or decrypt method
